@@ -1,0 +1,320 @@
+html, body{
+	height: 100%;
+}
+body{
+	background-image: linear-gradient(to right, #09A099 , #5009A0);
+}
+main{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+h1{
+	font-size: 5em;
+}
+input{
+	height: 70%;
+	width: 70vh;
+	font-size: 1.6em;
+	background-color: #D9E7EC;
+	color: #1c1c1c;
+	border-radius: 5px;
+	border: none; 
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #5009A0;
+	color: #D9E7EC;
+	width: 60vw;
+	height: 90vh;
+	border-radius: 15px;
+	box-shadow:  1px 8px 10px 2px #fff;
+}
+button{
+	width: 17vw;
+	height: 9vh;
+	border-radius: 10px;
+	font-size: 2em;
+	background-color: #09A099;
+	color:#D9E7EC;
+	border: 2px solid #D9E7EC;
+	margin-top: 1em;
+}
+button:hover{
+	background-color: #D9E7EC;
+	color: #09A099;
+	border: 2px solid #09A099;	
+}
+
+label{
+	font-size: 1.8em;
+}
+
+.imc{
+	margin-top: 20px;
+	font-size: 2rem;
+}
+.resultado{
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 1400px){
+	input{
+	height: 60%;
+	width: 60vh;
+	font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 1167px){
+	input{
+		height: 50%;
+		width: 50vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 4.5rem;
+	}
+	button{
+		width: 15vw;
+		height: 8vh;
+	}
+	.container{
+		height: 70vh;
+	}
+}
+@media screen and (max-width: 1002px){
+	input{
+		height: 50%;
+		width: 50vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 4rem;
+	}
+	button{
+		width: 13vw;
+		height: 6vh;
+		font-size:1.5rem; 
+	}
+	.container{
+		height: 60vh;
+	}
+}
+@media screen and (max-width: 889px){
+	input{
+		height: 45%;
+		width: 45vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 3.5rem;
+	}
+	button{
+		width: 12vw;
+		height: 5vh;
+		font-size:1.4rem; 
+	}
+	.container{
+		height: 60vh;
+	}
+	.imc{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 798px){
+	input{
+		height: 40%;
+		width: 40vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	button{
+		width: 12vw;
+		height: 5vh;
+		font-size:1.3rem; 
+	}
+	label{
+		font-size: 1.4rem;
+	}
+	.container{
+		height: 50vh;
+	}
+	.imc{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 737px){
+	input{
+		height: 35%;
+		width: 35vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	button{
+		width: 12vw;
+		height: 5vh;
+		font-size:1rem; 
+	}
+	label{
+		font-size: 1.4rem;
+	}
+	.container{
+		height: 50vh;
+	}
+	.imc{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 656px){
+	input{
+		height: 35%;
+		width: 35vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+	button{
+		width: 12vw;
+		height: 5vh;
+		font-size:1rem; 
+	}
+	label{
+		font-size: 1.4rem;
+	}
+	.container{
+		height: 40vh;
+	}
+	.imc{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 600px){
+	input{
+		height: 35%;
+		width: 35vh;
+		font-size: 1.3em;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+	button{
+		width: 12vw;
+		height: 5vh;
+		font-size:1rem; 
+	}
+	label{
+		font-size: 1rem;
+	}
+	.container{
+		height: 40vh;
+	}
+	.imc{
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 592px){
+	input{
+		height: 30%;
+		width: 30vh;
+		font-size: 0.8em;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+	button{
+		width: 10vw;
+		height: 4vh;
+		font-size:0.7rem; 
+	}
+	label{
+		font-size: 1rem;
+	}
+	.container{
+		height: 40vh;
+	}
+	.imc{
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 549px){
+	input{
+		height: 25%;
+		width: 25vh;
+		font-size: 0.5em;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	button{
+		width: 9vw;
+		height: 3vh;
+		font-size:0.5rem; 
+	}
+	label{
+		font-size: 0.8rem;
+	}
+	.container{
+		height: 30vh;
+	}
+	.imc{
+		font-size: 0.8rem;
+	}
+}
+@media screen and (max-width: 455px){
+	input{
+		height: 20%;
+		width: 20vh;
+		font-size: 0.3em;
+	}
+	h1{
+		font-size: 1.5rem;
+	}
+	button{
+		width: 6vw;
+		height: 2vh;
+		font-size:0.1rem; 
+	}
+	label{
+		font-size: 0.8rem;
+	}
+	.container{
+		height: 30vh;
+	}
+	.imc{
+		font-size: 0.8rem;
+	}
+}
+@media screen and (max-width: 371px){
+	input{
+		height: 15%;
+		width: 15vh;
+		font-size: 0.1em;
+	}
+	h1{
+		font-size: 1rem;
+	}
+	button{
+		width: 6vw;
+		height: 2vh;
+		font-size:0.1rem; 
+	}
+	label{
+		font-size: 0.6rem;
+	}
+	.container{
+		height: 25vh;
+	}
+	.imc{
+		font-size: 0.6rem;
+	}
+}
